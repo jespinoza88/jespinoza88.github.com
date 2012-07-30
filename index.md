@@ -1,11 +1,12 @@
 ---
 layout: page
-title: What does this do
-tagline: Beep
+title: What I've been up to:
+tagline: Now in awesome!
 ---
 {% include JB/setup %}
+{% include themes/twitter/page.html %}
 
-<h2>Posts</h2>
+
 <table class="table table-striped">
   <tbody>
 	{% for post in site.posts %}	
